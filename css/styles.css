@@ -7,30 +7,6 @@ body {
   color: #434455;
   background-color: #fff;
 }
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 107%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 
 a {
   font-family: "Roboto", sans-serif;
@@ -74,7 +50,11 @@ ul {
   list-style-type: none;
 }
 
+.address {
+  font-style: normal;
+}
 .address .link {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -88,7 +68,16 @@ ul {
 .hero-image {
   background: #2e2f42;
 }
-button {
+
+.h1-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -96,10 +85,60 @@ button {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-    cursor: pointer;
+  cursor: pointer;
 }
 
-button:hover {
-    background: #404bbf;
-  
+button:hover,
+button:focus {
+  background: #404bbf;
+}
+
+.h2-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.h3-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.p-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: #e7e9fc;
+}
+.h2-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-card {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.accent-studio-footer {
+  color: #f4f4fd;
+}
+.p-text-footer {
+  color: #f4f4fd;
 }
